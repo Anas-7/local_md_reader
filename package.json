@@ -1,0 +1,25 @@
+{
+  "name": "md_reader",
+  "version": "1.0.0",
+  "description": "A sleek markdown reader and editor",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@codemirror/lang-markdown": "^6.5.0",
+    "@codemirror/state": "^6.5.4",
+    "@codemirror/view": "^6.39.11",
+    "@vitejs/plugin-react": "^5.1.2",
+    "codemirror": "^6.0.2",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.1",
+    "vite": "^7.3.1"
+  }
+}
